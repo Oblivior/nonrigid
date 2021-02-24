@@ -1,0 +1,32 @@
+.uploadpic_footer{
+    background-color: rgba(12,12,12,0.9);
+    height: 80px;
+    line-height: 80px;
+    display: inline-block;
+    text-align: center;
+    width: 100%;
+    margin-top:-5px;
+    clear: both;
+    /*border:5px solid red;*/
+}
+.uploadpic_footer p {
+    margin-bottom: 0px;
+    font-size: 13px;
+    line-height: 80px;
+    color: #fff;
+    letter-spacing: 0.5px;
+    font-weight: 300;
+}
+
+.uploadpic_footer p a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: 600;
+}
+
+/* 动态为footer添加类fixed-bottom */
+.fixed-bottom {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
