@@ -186,10 +186,12 @@
                         </form>
                     </div>
                 </div>
-                <div><img src="assets/img/logo/rarrow.png" id="btn_arrow"
-                          style="width: 150px; height: 120px; margin-top: 130px; margin-left: 110px; margin-right: 50px">
+                <div><img src="assets/img/logo/btn_diamond.png" id="btn_diamond"
+                          style="width: 150px; height: 150px; margin-top: 130px; margin-left: 40px; margin-right: 50px">
+
                 </div>
-                <div class="img_wrap_right_cartoon" style="position:absolute; right: 50px; width: 100px"></div>
+                <div class="img_wrap_right" style="position:absolute; right: 50px; width: 100px"></div>
+
             </div>
 
 
@@ -306,9 +308,9 @@
     })
 
     $(function () {
-        $("#btn_arrow").one("click", function () {
-            var html2 = "<div><img class='img_wrap_right_cartoon' src='assets/img/result/r1.jpg'/></div>"
-            $(".img_wrap_right_cartoon").after(html2);
+        $("#btn_diamond").one("click", function () {
+            var html2 = "<div><img class='img_wrap_right' src='assets/img/result/r3.jpg'/></div>"
+            $("#btn_diamond").after(html2);
         });
     })
 </script>
