@@ -387,21 +387,6 @@ hr {
     background-position: right;
     background-size: 200%
 }
-#btn_cancel {
-    border: none;
-    padding: 13px 33px;
-    text-transform: capitalize;
-    border-radius: 30px;
-    cursor: pointer;
-    color: #fff;
-    display: inline-block;
-    font-size: 15px;
-    transition: 0.6s;
-    box-shadow: 0px 7px 21px 0px rgba(0, 0, 0, 0.12);
-    background-image: linear-gradient(to left, #ff3500, #ffc107, #ff3500);
-    background-position: right;
-    background-size: 200%
-}
 
 .btn i {
     color: #ffffff;
@@ -2284,7 +2269,7 @@ hr {
 
 .section-padding30 {
     padding-top: 130px;
-    padding-bottom: 120px
+    /*padding-bottom: 120px*/
 }
 
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
