@@ -1,0 +1,98 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <!-- 确保适当的绘制和触屏缩放 -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>登录</title>
+    <!-- 新 Bootstrap 核心 CSS 文件 -->
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/my.css">
+    <script type="text/javascript" src="assets/js/wel_jquery.js"></script>
+    <script src="assets/js/vendor/jquery-1.12.4.min.js"></script>
+</head>
+<body class="slide slide3 s1">
+
+<!--PageBeginHtml Block End-->
+
+<div class="wel_middle" id="wel_middle">
+    <div>
+        <h1 class="wel_h1"><b style="color: #0A0A0A">熊</b><b style="color: #FFFFFF">猫</b><b style="color: #0A0A0A">文</b><b
+                style="color: #FFFFFF">娱</b><b
+                style="color: #0A0A0A">创</b><b style="color: #FFFFFF">作</b><b style="color: #0A0A0A">平</b><b
+                style="color: #FFFFFF">台</b></h1>
+        <h2 class="wel_h2"></h2>
+    </div>
+    <!--  -->
+    <div class="container" id="login">
+
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h3 id="login-modal-title" class="modal-title" style="color:#999">账号登录</h3>
+                </div>
+                <div class="modal-body container-fluid">
+                    <div class="row">
+                        <div class="col-md-2"></div>
+                        <div class="col-md-8">
+                            <br>
+                            <form method="post">
+
+                                <div class="input-group">
+                            <span class="input-group-addon">
+                            <span class="glyphicon glyphicon-user"></span></span>
+                                    <input class="form-control" id="login-username" type="text" name="username"
+                                           placeholder="电子邮箱/用户名">
+                                </div>
+                                <br>
+                                <div class="input-group">
+                                    <span class="input-group-addon"><span
+                                            class="glyphicon glyphicon-lock"></span></span>
+                                    <input class="form-control" id="login-password" type="password" name="password"
+                                           placeholder="密码">
+                                </div>
+
+                                <br>
+
+                                <!--    <div class="alert alert-{{ message.tags }}">
+                                        <button type="button" class="close" data-dismiss="alert">&times;</button>
+
+                                    </div>-->
+
+                                <br>
+                                <button class="btn btn-dark btn-block" type="submit"><a href="index.html"
+                                                                                           style="color:#FFFFFF"> 登录</a>
+                                </button>
+                                <!--<a href="index.html">
+                                  <button class="btn btn-primary btn-block" type="submit" >登录</button>
+                              </a>-->
+                                <br>
+                                <div>
+                                    <p><a href="#" class="register">点击这里注册</a>
+                                        <a href="#" style="float: right;" class="password-recovery-link">忘记密码？点击这里</a>
+                                    </p>
+                                </div>
+                            </form>
+                        </div>
+                        <div class="col-md-2"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="gray"></div>
+</div>
+<!--登录-->
+</div>
+<script src="assets/js/bootstrap.min.js"></script>
+<script type="text/javascript">
+    $(document).ready(function () {
+        $("h1").fadeIn(800);
+        $("h2").fadeIn(1000);
+        $("#login").fadeIn(1000);
+    });
+
+</script>
+</body>
+</html>

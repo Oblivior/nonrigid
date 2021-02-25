@@ -387,6 +387,21 @@ hr {
     background-position: right;
     background-size: 200%
 }
+#btn_cancel {
+    border: none;
+    padding: 13px 33px;
+    text-transform: capitalize;
+    border-radius: 30px;
+    cursor: pointer;
+    color: #fff;
+    display: inline-block;
+    font-size: 15px;
+    transition: 0.6s;
+    box-shadow: 0px 7px 21px 0px rgba(0, 0, 0, 0.12);
+    background-image: linear-gradient(to left, #ff3500, #ffc107, #ff3500);
+    background-position: right;
+    background-size: 200%
+}
 
 .btn i {
     color: #ffffff;
@@ -3631,7 +3646,7 @@ hr {
 }
 
 .service-area .single-cat .cat-cap h5 > a {
-    background: #fff;
+    background: #EEFFFA;
     margin: 0 20px;
     text-decoration: underline transparent;
     font-size: 24px;
