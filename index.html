@@ -155,8 +155,8 @@
 
                     <form class="enter-form" enctype="multipart/form-data" method="POST">
                         <div class="btn_enter">
-                            <button class="btn btn-success btn-block" id="btn_ensure" type="button">提交</button>
-                            <button class="btn btn-danger btn-block" id="btn_cancel" type="button">取消</button>
+                            <button class="genric-btn primary circle" id="btn_ensure" type="button">提交</button>
+                            <button class="genric-btn danger circle" id="btn_cancel" type="button">取消</button>
                         </div>
                     </form>
                 </div>
@@ -174,9 +174,10 @@
                         </div>
                         <form method="POST" enctype="multipart/form-data">
                             <div class="cat-cap">
-                                <h5><a>上传图片</a></h5>
+                                <!--<h5><a>上传图片</a></h5>-->
+                                <button class="genric-btn success radius" type="button" style="width: 200px">上传图片</button>
                                 <input class="file" name="a" onchange="imgPreview(this);upload()" type="file"
-                                       style="width: 370px; height: 64px; margin-left: -185px"/>
+                                       style="width: 200px; height: 23px; margin-left: -200px"/>
                             </div>
                             <div class="img_preview_cartoon">
                                 <div class="img_wrap_cartoon">
@@ -186,9 +187,9 @@
                         </form>
                     </div>
                 </div>
-                <div><img src="assets/img/logo/btn_diamond.png" id="btn_diamond"
+                <div>
+                    <img src="assets/img/logo/rarrow.png" id="btn_rarrow"
                           style="width: 150px; height: 150px; margin-top: 130px; margin-left: 40px; margin-right: 50px">
-
                 </div>
                 <div class="img_wrap_right" style="position:absolute; right: 50px; width: 100px"></div>
 
@@ -308,9 +309,9 @@
     })
 
     $(function () {
-        $("#btn_diamond").one("click", function () {
+        $("#btn_rarrow").one("click", function () {
             var html2 = "<div><img class='img_wrap_right' src='assets/img/result/r3.jpg'/></div>"
-            $("#btn_diamond").after(html2);
+            $("#btn_rarrow").after(html2);
         });
     })
 </script>
