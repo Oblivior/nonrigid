@@ -6,7 +6,6 @@
     <title>非刚体鸟类三维重建</title>
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="manifest" href="site.webmanifest">
     <link rel="shortcut icon" type="image/x-icon" href="assets/img/favicon.ico">
 
     <!-- CSS here -->
@@ -29,383 +28,232 @@
 </head>
 
 <body>
-    <!-- ? Preloader Start -->
-    <div id="preloader-active">
-        <div class="preloader d-flex align-items-center justify-content-center">
-            <div class="preloader-inner position-relative">
-                <div class="preloader-circle"></div>
-                <div class="preloader-img pere-text">
-                    <img src="assets/img/logo/loader.png" alt="">
+<!-- ? Preloader Start -->
+<div id="preloader-active">
+    <div class="preloader d-flex align-items-center justify-content-center">
+        <div class="preloader-inner position-relative">
+            <div class="preloader-circle"></div>
+            <div class="preloader-img pere-text">
+                <img src="assets/img/logo/loader.png" alt="">
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Preloader Start -->
+<header>
+    <!-- Header Start -->
+    <div class="header-area">
+        <div class="main-header ">
+            <div class="header-bottom  header-sticky">
+                <div class="container-fluid">
+                    <div class="row align-items-center">
+                        <!-- Logo -->
+                        <div class="col-xl-2 col-lg-2">
+                            <div class="logo">
+                                <a href="index.html"><img src="assets/img/logo/logo.png" alt=""></a>
+                                <a class="col-xl-10 col-lg-10"
+                                   style="color: #072366; font-size: 18px; font-weight: bold">非刚体三维重建系统</a>
+                            </div>
+                        </div>
+                        <div class="col-xl-10 col-lg-10">
+                            <div class="menu-wrapper  d-flex align-items-center justify-content-end">
+                                <!-- Main-menu -->
+                                <div class="main-menu d-none d-lg-block">
+                                    <nav>
+                                        <ul id="navigation">
+                                            <li><a href="#">主页</a></li>
+                                            <li><a href="#reconstruct">三维重建</a></li>
+                                            <li><a href="blog.html">素材</a>
+                                                <ul class="submenu">
+                                                    <li><a href="blog.html">Blog</a></li>
+                                                    <li><a href="blog_details.html">Blog Details</a></li>
+                                                    <li><a href="elements.html">Element</a></li>
+                                                </ul>
+                                            </li>
+                                        </ul>
+                                    </nav>
+                                </div>
+                                <!-- Header-btn -->
+                                <div class="header-right-btn d-none d-lg-block ml-20">
+                                    <a href="#" class="btn header-btn">登录</a>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Mobile Menu -->
+                        <div class="col-12">
+                            <div class="mobile_menu d-block d-lg-none"></div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
     </div>
-    <!-- Preloader Start -->
-    <header>
-        <!-- Header Start -->
-        <div class="header-area">
-            <div class="main-header ">
-                <div class="header-bottom  header-sticky">
-                    <div class="container-fluid">
-                        <div class="row align-items-center">
-                            <!-- Logo -->
-                            <div class="col-xl-2 col-lg-2">
-                                <div class="logo">
-                                    <a href="index.html"><img src="assets/img/logo/logo.png" alt=""></a>
-                                    <a class="col-xl-10 col-lg-10"
-                                       style="color: #072366; font-size: 18px; font-weight: bold">非刚体三维重建系统</a>
-                                </div>
-                            </div>
-                            <div class="col-xl-10 col-lg-10">
-                                <div class="menu-wrapper  d-flex align-items-center justify-content-end">
-                                    <!-- Main-menu -->
-                                    <div class="main-menu d-none d-lg-block">
-                                        <nav>
-                                            <ul id="navigation">
-                                                <li><a href="#">Home</a></li>
-                                                <li><a href="projects.html">Projects</a></li>
-                                                <li><a href="blog.html">素材</a>
-                                                    <ul class="submenu">
-                                                        <li><a href="blog.html">Blog</a></li>
-                                                        <li><a href="blog_details.html">Blog Details</a></li>
-                                                        <li><a href="elements.html">Element</a></li>
-                                                    </ul>
-                                                </li>
-                                            </ul>
-                                        </nav>
-                                    </div>
-                                    <!-- Header-btn -->
-                                    <div class="header-right-btn d-none d-lg-block ml-20">
-                                        <a href="login.html" class="btn header-btn">登录</a>
-                                    </div>
-                                </div>
-                            </div>
-                            <!-- Mobile Menu -->
-                            <div class="col-12">
-                                <div class="mobile_menu d-block d-lg-none"></div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+    <!-- Header End -->
+</header>
+<main>
+
+    <!--? Visit Our Tailor Start -->
+    <div class="visit-tailor-area fix">
+        <!--Right Contents  -->
+        <div class="tailor-offers"></div>
+        <!-- left Contents -->
+        <div class="tailor-details">
+            <span>OUR GOAL</span>
+            <h2>本站目标</h2>
+            <p>面向图像的非刚体三维重建系统，是依托于<a href="elements.html" style="color: #072366; font-weight: bold">熊猫文娱创作平台</a>，致力研究动物三维重建技术，
+                本站以鸟类三维重建作为引入，未来将会有更多物种的三维重建呈现。</p>
+            <p class="pera-bottom">The image-oriented non-rigid 3D reconstruction system
+                is based on the <a href="elements.html" style="color: #072366; font-weight: bold">Panda Entertainment Creation Platform </a>
+                and devoted to the research of animal 3D reconstruction technology. This site takes the 3D
+                reconstruction of birds as the introduction, and there will be more 3D
+                reconstruction of species in the future.</p>
+            <div class="container_downarrow">
+                <div class="arrow"></div>
             </div>
         </div>
-        <!-- Header End -->
-    </header>
-    <main>
-
-        <!-- slider Area Start-->
-        <!--<div class="slider-area position-relative">
-            <div class="slider-active dot-style">
-                &lt;!&ndash; Single Slider &ndash;&gt;
-                <div class="single-slider hero-overly slider-height slider-bg1 d-flex align-items-center">
-                    <div class="container">
-                        <div class="row">
-                            <div class="col-xl-8 col-lg-8 col-md-8 col-sm-10">
-                                <div class="hero__caption">
-                                    <h1 data-animation="fadeInUp" data-delay=".2s">Environment</h1>
-                                    <P data-animation="fadeInUp" data-delay=".4s">Provide us a green and healthy life<br> we need to protect </P>
-                                    &lt;!&ndash; Hero-btn &ndash;&gt;
-                                    <div class="hero__btn">
-                                        <a href="industries.html" class="hero-btn mb-10"  data-animation="fadeInUp" data-delay=".8s">Join Us Now</a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                &lt;!&ndash; Single Slider &ndash;&gt;
-                <div class="single-slider hero-overly slider-height slider-bg1 d-flex align-items-center">
-                    <div class="container">
-                        <div class="row">
-                            <div class="col-xl-8 col-lg-8 col-md-8 col-sm-10">
-                                <div class="hero__caption">
-                                    <h1 data-animation="fadeInUp" data-delay=".2s">Environment</h1>
-                                    <P data-animation="fadeInUp" data-delay=".4s">Provide us a green and healthy life<br> we need to protect </P>
-                                    &lt;!&ndash; Hero-btn &ndash;&gt;
-                                    <div class="hero__btn">
-                                        <a href="industries.html" class="hero-btn mb-10"  data-animation="fadeInUp" data-delay=".8s">Join Us Now</a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                &lt;!&ndash; Single Slider &ndash;&gt;
-                <div class="single-slider hero-overly slider-height slider-bg1 d-flex align-items-center">
-                    <div class="container">
-                        <div class="row">
-                            <div class="col-xl-8 col-lg-8 col-md-8 col-sm-10">
-                                <div class="hero__caption">
-                                    <h1 data-animation="fadeInUp" data-delay=".2s">Environment</h1>
-                                    <P data-animation="fadeInUp" data-delay=".4s">Provide us a green and healthy life<br> we need to protect </P>
-                                    &lt;!&ndash; Hero-btn &ndash;&gt;
-                                    <div class="hero__btn">
-                                        <a href="industries.html" class="hero-btn mb-10"  data-animation="fadeInUp" data-delay=".8s">Join Us Now</a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-
-        </div>-->
-        <!-- slider Area End-->
-        <!--? Visit Our Tailor Start -->
-        <div class="visit-tailor-area fix">
-            <!--Right Contents  -->
-            <div class="tailor-offers"></div>
-            <!-- left Contents -->
-            <div class="tailor-details">
-                <span>本站提供</span>
-                <h2>Our main goal is to protect animals</h2>
-                <p>The automated process starts as soon as
-                    your clothes go into the machine. Duis cursus, mi quis
-                    viverra ornare, eros dolor interdum nulla, ut commodo
-                    diam libero vitae erat. Aenean faucibus nibh et justo
-                    cursus id rutrum lorem imperdiet. Nunc ut sem vitae
-                risus tristique posuere.</p>
-                <p class="pera-bottom">Interdum nulla, ut commodo diam libero vitae erat.
-                    Aenean faucibus nibh et justo cursus id rutrum lorem
-                imperdiet. Nunc ut sem vitae risus tristique posuere.</p>
-                <div class="footer-tittles">
-                    <p>CEO, Consulto</p>
-                    <h2>Capcilena Hanry</h2>
-                </div>
-            </div>
-        </div>
-        <!-- Visit Our Tailor End -->
-        <!--? Services Area Start -->
-        <div class="service-area section-padding30">
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-4 col-md-6 col-sm-11">
-                        <div class="single-cat text-center mb-30">
-                            <div class="cat-icon">
-                                <img src="assets/img/gallery/services1.png" alt="">
-                            </div>
-                            <div class="cat-cap">
-                                <h5><a href="#">Clean Water</a></h5>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 col-md-6 col-sm-11">
-                        <div class="single-cat active text-center mb-30">
-                            <div class="cat-icon">
-                                <img src="assets/img/gallery/services2.png" alt="">
-                            </div>
-                            <div class="cat-cap">
-                                <h5><a href="#">Renewable energy</a></h5>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 col-md-6 col-sm-11">
-                        <div class="single-cat text-center mb-30">
-                            <div class="cat-icon">
-                                <img src="assets/img/gallery/services3.png" alt="">
-                            </div>
-                            <div class="cat-cap">
-                                <h5><a href="#">Protect animals</a></h5>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!--? Blog Area Start -->
-        <section class="home-blog-area pb-padding">
-            <div class="container">
-                <!-- Section Tittle -->
-                <div class="section-top-border">
-                    <h1>图片墙</h1>
-                    <div class="row gallery-item">
-                        <div class="col-md-4">
-                            <a href="assets/img/elements/g1.jpg" class="img-pop-up">
-                                <div class="single-gallery-image" style="background: url(assets/img/elements/g1.jpg);"></div>
-                            </a>
-                        </div>
-                        <div class="col-md-4">
-                            <a href="assets/img/elements/g2.jpg" class="img-pop-up">
-                                <div class="single-gallery-image" style="background: url(assets/img/elements/g2.jpg);"></div>
-                            </a>
-                        </div>
-                        <div class="col-md-4">
-                            <a href="assets/img/elements/g3.jpg" class="img-pop-up">
-                                <div class="single-gallery-image" style="background: url(assets/img/elements/g3.jpg);"></div>
-                            </a>
-                        </div>
-                        <div class="col-md-6">
-                            <a href="assets/img/elements/g4.jpg" class="img-pop-up">
-                                <div class="single-gallery-image" style="background: url(assets/img/elements/g4.jpg);"></div>
-                            </a>
-                        </div>
-                        <div class="col-md-6">
-                            <a href="assets/img/elements/g5.jpg" class="img-pop-up">
-                                <div class="single-gallery-image" style="background: url(assets/img/elements/g5.jpg);"></div>
-                            </a>
-                        </div>
-                        <div class="col-md-4">
-                            <a href="assets/img/elements/g6.jpg" class="img-pop-up">
-                                <div class="single-gallery-image" style="background: url(assets/img/elements/g6.jpg);"></div>
-                            </a>
-                        </div>
-                        <div class="col-md-4">
-                            <a href="assets/img/elements/g7.jpg" class="img-pop-up">
-                                <div class="single-gallery-image" style="background: url(assets/img/elements/g7.jpg);"></div>
-                            </a>
-                        </div>
-                        <div class="col-md-4">
-                            <a href="assets/img/elements/g8.jpg" class="img-pop-up">
-                                <div class="single-gallery-image" style="background: url(assets/img/elements/g8.jpg);"></div>
-                            </a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <!-- Blog Area End -->
-
-    </main>
-    <footer class="uploadpic_footer">
-        <p>Copyright &copy; 2018 Designed by : 熊猫动漫项目组</p>
-    </footer>
-<!--    <footer>
-        <div class="footer-wrapper">
-           &lt;!&ndash; Footer Start&ndash;&gt;
-           <div class="footer-area footer-padding">
-               <div class="container ">
-                   <div class="row justify-content-between">
-                       <div class="col-xl-4 col-lg-3 col-md-8 col-sm-8">
-                           <div class="single-footer-caption mb-50">
-                               <div class="single-footer-caption mb-30">
-                                   &lt;!&ndash; logo &ndash;&gt;
-                                   <div class="footer-logo mb-35">
-                                       <a href="index.html"><img src="assets/img/logo/logo2_footer.png" alt=""></a>
-                                   </div>
-                                   <div class="footer-tittle">
-                                       <div class="footer-pera">
-                                           <p>The automated process starts as soon as your clothes go into the machine.</p>
-                                       </div>
-                                   </div>
-                                   &lt;!&ndash; social &ndash;&gt;
-                                   <div class="footer-social">
-                                       <a href="#"><i class="fab fa-twitter"></i></a>
-                                       <a href="https://bit.ly/sai4ull"><i class="fab fa-facebook-f"></i></a>
-                                       <a href="#"><i class="fab fa-pinterest-p"></i></a>
-                                   </div>
-                               </div>
-                           </div>
-                       </div>
-                       <div class="col-xl-2 col-lg-3 col-md-4 col-sm-4">
-                           <div class="single-footer-caption mb-50">
-                               <div class="footer-tittle">
-                                   <h4>Our solutions</h4>
-                                   <ul>
-                                       <li><a href="#">Design & creatives</a></li>
-                                       <li><a href="#">Telecommunication</a></li>
-                                       <li><a href="#">Restaurant</a></li>
-                                       <li><a href="#">Programing</a></li>
-                                       <li><a href="#">Architecture</a></li>
-                                   </ul>
-                               </div>
-                           </div>
-                       </div>
-                       <div class="col-xl-2 col-lg-2 col-md-4 col-sm-4">
-                           <div class="single-footer-caption mb-50">
-                               <div class="footer-tittle">
-                                   <h4>Company</h4>
-                                   <ul>
-                                       <li><a href="#">About</a></li>
-                                       <li><a href="#">Review</a></li>
-                                       <li><a href="#">Insights</a></li>
-                                       <li><a href="#">Carrier</a></li>
-                                   </ul>
-                               </div>
-                           </div>
-                       </div>
-                       <div class="col-xl-3 col-lg-4 col-md-6 col-sm-4">
-                           <div class="single-footer-caption mb-50">
-                               <div class="footer-tittle">
-                                   <h4>Contact us</h4>
-                                   <ul>
-                                       <li><a href="#">consulto98@gmail.com</a></li>
-                                       <li><a href="#">76/A, Green road, NYC</a></li>
-                                       <li><a href="#">Privacy Policy</a></li>
-                                       <li class="number"><a href="#">(80) 783 367-3904</a></li>
-                                   </ul>
-                               </div>
-                           </div>
-                       </div>
-                   </div>
-               </div>
-           </div>
-           &lt;!&ndash; footer-bottom area &ndash;&gt;
-           <div class="footer-bottom-area">
-               <div class="container">
-                   <div class="footer-border">
-                       <div class="row d-flex align-items-center">
-                           <div class="col-xl-12 ">
-                               <div class="footer-copy-right text-center">
-                                   <p>&lt;!&ndash; Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. &ndash;&gt;
-                                      Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="fa fa-heart" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a>
-                                      &lt;!&ndash; Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. &ndash;&gt;</p>
-                                  </div>
-                              </div>
-                          </div>
-                      </div>
-                  </div>
-              </div>
-              &lt;!&ndash; Footer End&ndash;&gt;
-          </div>
-      </footer>-->
-      <!-- Scroll Up -->
-      <div id="back-top" >
-        <a title="Go to Top" href="#"> <i class="fas fa-level-up-alt"></i></a>
     </div>
+    <!-- Visit Our Tailor End -->
+    <!--? Services Area Start -->
+    <div id="reconstruct" class="service-area section-padding30">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4 col-md-6 col-sm-11">
+                    <div class="single-cat text-center mb-30">
+                        <div class="cat-icon">
+                            <img src="assets/img/gallery/services1.png" alt="">
+                        </div>
+                        <div class="cat-cap">
+                            <h5><a href="#">上传图片</a></h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-11">
+                    <div class="single-cat active text-center mb-30">
+                        <div class="cat-icon">
+                            <img src="assets/img/gallery/services2.png" alt="">
+                        </div>
+                        <div class="cat-cap">
+                            <h5><a href="#">Renewable energy</a></h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-11">
+                    <div class="single-cat text-center mb-30">
+                        <div class="cat-icon">
+                            <img src="assets/img/gallery/services3.png" alt="">
+                        </div>
+                        <div class="cat-cap">
+                            <h5><a href="#">Protect animals</a></h5>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--? Blog Area Start -->
+    <section class="home-blog-area pb-padding">
+        <div class="container">
+            <!-- Section Tittle -->
+            <div class="section-top-border">
+                <h1>图片墙</h1>
+                <div class="row gallery-item">
+                    <div class="col-md-4">
+                        <a href="assets/img/elements/g1.jpg" class="img-pop-up">
+                            <div class="single-gallery-image" style="background: url(assets/img/elements/g1.jpg);"></div>
+                        </a>
+                    </div>
+                    <div class="col-md-4">
+                        <a href="assets/img/elements/g2.jpg" class="img-pop-up">
+                            <div class="single-gallery-image" style="background: url(assets/img/elements/g2.jpg);"></div>
+                        </a>
+                    </div>
+                    <div class="col-md-4">
+                        <a href="assets/img/elements/g3.jpg" class="img-pop-up">
+                            <div class="single-gallery-image" style="background: url(assets/img/elements/g3.jpg);"></div>
+                        </a>
+                    </div>
+                    <div class="col-md-6">
+                        <a href="assets/img/elements/g4.jpg" class="img-pop-up">
+                            <div class="single-gallery-image" style="background: url(assets/img/elements/g4.jpg);"></div>
+                        </a>
+                    </div>
+                    <div class="col-md-6">
+                        <a href="assets/img/elements/g5.jpg" class="img-pop-up">
+                            <div class="single-gallery-image" style="background: url(assets/img/elements/g5.jpg);"></div>
+                        </a>
+                    </div>
+                    <div class="col-md-4">
+                        <a href="assets/img/elements/g6.jpg" class="img-pop-up">
+                            <div class="single-gallery-image" style="background: url(assets/img/elements/g6.jpg);"></div>
+                        </a>
+                    </div>
+                    <div class="col-md-4">
+                        <a href="assets/img/elements/g7.jpg" class="img-pop-up">
+                            <div class="single-gallery-image" style="background: url(assets/img/elements/g7.jpg);"></div>
+                        </a>
+                    </div>
+                    <div class="col-md-4">
+                        <a href="assets/img/elements/g8.jpg" class="img-pop-up">
+                            <div class="single-gallery-image" style="background: url(assets/img/elements/g8.jpg);"></div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Blog Area End -->
 
-    <!-- JS here -->
+</main>
+<footer class="uploadpic_footer">
+    <p>Copyright &copy; 2018 Designed by : 熊猫动漫项目组</p>
+</footer>
+<!-- Scroll Up -->
+<div id="back-top" >
+    <a title="Go to Top" href="#"> <i class="fas fa-level-up-alt"></i></a>
+</div>
 
-    <script src="./assets/js/vendor/modernizr-3.5.0.min.js"></script>
-    <!-- Jquery, Popper, Bootstrap -->
-    <script src="./assets/js/vendor/jquery-1.12.4.min.js"></script>
-    <script src="./assets/js/popper.min.js"></script>
-    <script src="./assets/js/bootstrap.min.js"></script>
-    <!-- Jquery Mobile Menu -->
-    <script src="./assets/js/jquery.slicknav.min.js"></script>
+<!-- JS here -->
 
-    <!-- Jquery Slick , Owl-Carousel Plugins -->
-    <script src="./assets/js/owl.carousel.min.js"></script>
-    <script src="./assets/js/slick.min.js"></script>
-    <!-- One Page, Animated-HeadLin -->
-    <script src="./assets/js/wow.min.js"></script>
-    <script src="./assets/js/animated.headline.js"></script>
-    <script src="./assets/js/jquery.magnific-popup.js"></script>
+<script src="./assets/js/vendor/modernizr-3.5.0.min.js"></script>
+<!-- Jquery, Popper, Bootstrap -->
+<script src="./assets/js/vendor/jquery-1.12.4.min.js"></script>
+<script src="./assets/js/popper.min.js"></script>
+<script src="./assets/js/bootstrap.min.js"></script>
+<!-- Jquery Mobile Menu -->
+<script src="./assets/js/jquery.slicknav.min.js"></script>
 
-    <!-- Date Picker -->
-    <script src="./assets/js/gijgo.min.js"></script>
-    <!-- Nice-select, sticky -->
-    <script src="./assets/js/jquery.nice-select.min.js"></script>
-    <script src="./assets/js/jquery.sticky.js"></script>
-    <!-- Progress -->
-    <script src="./assets/js/jquery.barfiller.js"></script>
+<!-- Jquery Slick , Owl-Carousel Plugins -->
+<script src="./assets/js/owl.carousel.min.js"></script>
+<script src="./assets/js/slick.min.js"></script>
+<!-- One Page, Animated-HeadLin -->
+<script src="./assets/js/wow.min.js"></script>
+<script src="./assets/js/animated.headline.js"></script>
+<script src="./assets/js/jquery.magnific-popup.js"></script>
 
-    <!-- counter , waypoint,Hover Direction -->
-    <script src="./assets/js/jquery.counterup.min.js"></script>
-    <script src="./assets/js/waypoints.min.js"></script>
-    <script src="./assets/js/jquery.countdown.min.js"></script>
-    <script src="./assets/js/hover-direction-snake.min.js"></script>
+<!-- Date Picker -->
+<script src="./assets/js/gijgo.min.js"></script>
+<!-- Nice-select, sticky -->
+<script src="./assets/js/jquery.nice-select.min.js"></script>
+<script src="./assets/js/jquery.sticky.js"></script>
+<!-- Progress -->
+<script src="./assets/js/jquery.barfiller.js"></script>
 
-    <!-- contact js -->
-    <script src="./assets/js/contact.js"></script>
-    <script src="./assets/js/jquery.form.js"></script>
-    <script src="./assets/js/jquery.validate.min.js"></script>
-    <script src="./assets/js/mail-script.js"></script>
-    <script src="./assets/js/jquery.ajaxchimp.min.js"></script>
+<!-- counter , waypoint,Hover Direction -->
+<script src="./assets/js/jquery.counterup.min.js"></script>
+<script src="./assets/js/waypoints.min.js"></script>
+<script src="./assets/js/jquery.countdown.min.js"></script>
+<script src="./assets/js/hover-direction-snake.min.js"></script>
 
-    <!-- Jquery Plugins, main Jquery -->
-    <script src="./assets/js/plugins.js"></script>
-    <script src="./assets/js/main.js"></script>
+<!-- contact js -->
+<script src="./assets/js/contact.js"></script>
+<script src="./assets/js/jquery.form.js"></script>
+<script src="./assets/js/jquery.validate.min.js"></script>
+<script src="./assets/js/mail-script.js"></script>
+<script src="./assets/js/jquery.ajaxchimp.min.js"></script>
+
+<!-- Jquery Plugins, main Jquery -->
+<script src="./assets/js/plugins.js"></script>
+<script src="./assets/js/main.js"></script>
 
 </body>
 </html>
