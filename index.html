@@ -23,7 +23,6 @@
     <link href="assets/css/slick.css" rel="stylesheet">
     <link href="assets/css/nice-select.css" rel="stylesheet">
     <link href="assets/css/style.css" rel="stylesheet">
-
     <link href="assets/css/my.css" rel="stylesheet">
 </head>
 
@@ -64,11 +63,10 @@
                                             <li><a href="#">主页</a></li>
                                             <li><a href="#reconstruct">三维重建</a></li>
                                             <li><a href="#gallery">展示区</a></li>
-                                            <li><a href="blog.html">素材</a>
+                                            <li><a href="blog.html">Blog</a>
                                                 <ul class="submenu">
                                                     <li><a href="blog.html">Blog</a></li>
-                                                    <li><a href="blog_details.html">Blog Details</a></li>
-                                                    <li><a href="elements.html">Element</a></li>
+                                                    <li><a href="blog_details.html">Blog详情</a></li>
                                                 </ul>
                                             </li>
                                         </ul>
@@ -116,86 +114,87 @@
     </div>
     <!-- Visit Our Tailor End -->
     <!--? Services Area Start -->
-    <div class="service-area section-padding30" id="reconstruct">
+    <div class="service-area" id="reconstruct">
         <div class="container">
-            <div class="row">
-                <div class="enter-content">
-                    <!--图像选择器-->
-                    <div class="picker">
-                        <input id="aaa" type="hidden" value=""/>
-                        <div class="sys_item_spec">
-                            <dl class="clearfix iteminfo_parameter sys_item_specpara" data-sid="1">
-                                <dd>
-                                    <ul class="sys_spec_img">
-                                        <li data-aid="1">
-                                            <a href="javascript:"><img alt="" id="1" onClick="test(this.id)"
-                                                                       src="assets/img/video/1.jpg"/></a>
-                                            <i></i>
-                                        </li>
-                                        <li data-aid="2">
-                                            <a href="javascript:"><img alt="" id="2" onClick="test(this.id)"
-                                                                       src="assets/img/video/2.jpg"/></a>
-                                            <i></i>
-                                        </li>
-                                        <li data-aid="3">
-                                            <a href="javascript:"><img alt="" id="3" onClick="test(this.id)"
-                                                                       src="assets/img/video/3.jpg"/></a>
-                                            <i></i>
-                                        </li>
-                                        <li data-aid="4">
-                                            <a href="javascript:"><img alt="" id="4" onClick="test(this.id)"
-                                                                       src="assets/img/video/4.jpg"/></a>
-                                            <i></i>
-                                        </li>
-                                    </ul>
-                                </dd>
-                            </dl>
-                        </div>
-                    </div>
-
-                    <form class="enter-form" enctype="multipart/form-data" method="POST">
-                        <div class="btn_enter">
-                            <button class="genric-btn primary circle" id="btn_ensure" type="button">提交</button>
-                            <button class="genric-btn danger circle" id="btn_cancel" type="button">取消</button>
-                        </div>
-                    </form>
-                </div>
-                <div><img src="assets/img/logo/rarrow.png" style="width: 150px; height: 120px;
-                                                            margin-top: 130px; margin-left: 150px; margin-right: 150px">
-                </div>
-                <div class="result_show"></div>
-            </div>
-            <div class="row">
-                <!--上传图像-->
-                <div class="col-lg-4 col-md-6 col-sm-11">
-                    <div class="single-cat text-center mb-30">
-                        <div class="cat-icon">
-                            <img alt="" src="assets/img/gallery/upload_pic.png">
-                        </div>
-                        <form method="POST" enctype="multipart/form-data">
-                            <div class="cat-cap">
-                                <!--<h5><a>上传图片</a></h5>-->
-                                <button class="genric-btn success radius" type="button" style="width: 200px">上传图片</button>
-                                <input class="file" name="a" onchange="imgPreview(this);upload()" type="file"
-                                       style="width: 200px; height: 23px; margin-left: -200px"/>
+            <div class="section-top-border">
+                <h1 class="pb-10">三维重建</h1>
+                <div class="row">
+                    <div class="enter-content">
+                        <!--图像选择器-->
+                        <div class="picker">
+                            <input id="aaa" type="hidden" value=""/>
+                            <div class="sys_item_spec">
+                                <dl class="clearfix iteminfo_parameter sys_item_specpara" data-sid="1">
+                                    <dd>
+                                        <ul class="sys_spec_img">
+                                            <li data-aid="1">
+                                                <a href="javascript:"><img alt="" id="1" onClick="test(this.id)"
+                                                                           src="assets/img/video/1.jpg"/></a>
+                                                <i></i>
+                                            </li>
+                                            <li data-aid="2">
+                                                <a href="javascript:"><img alt="" id="2" onClick="test(this.id)"
+                                                                           src="assets/img/video/2.jpg"/></a>
+                                                <i></i>
+                                            </li>
+                                            <li data-aid="3">
+                                                <a href="javascript:"><img alt="" id="3" onClick="test(this.id)"
+                                                                           src="assets/img/video/3.jpg"/></a>
+                                                <i></i>
+                                            </li>
+                                            <li data-aid="4">
+                                                <a href="javascript:"><img alt="" id="4" onClick="test(this.id)"
+                                                                           src="assets/img/video/4.jpg"/></a>
+                                                <i></i>
+                                            </li>
+                                        </ul>
+                                    </dd>
+                                </dl>
                             </div>
-                            <div class="img_preview_cartoon">
-                                <div class="img_wrap_cartoon">
-                                    <img id="preview"/>
-                                </div>
+                        </div>
+
+                        <form class="enter-form" enctype="multipart/form-data" method="POST">
+                            <div class="btn_enter">
+                                <button class="genric-btn primary circle" id="btn_ensure" type="button">提交</button>
+                                <button class="genric-btn danger circle" id="btn_cancel" type="button">取消</button>
                             </div>
                         </form>
                     </div>
+                    <div><img src="assets/img/logo/rarrow.png" style="width: 150px; height: 120px;
+                                                            margin-top: 130px; margin-left: 150px; margin-right: 150px">
+                    </div>
+                    <div class="result_show"></div>
                 </div>
-                <div>
-                    <img src="assets/img/logo/rarrow.gif" id="btn_rarrow"
-                          style="width: 192px; height: 108px; margin-top: 130px; margin-right: 50px">
+                <div class="row">
+                    <!--上传图像-->
+                    <div class="col-lg-4 col-md-6 col-sm-11">
+                        <div class="single-cat text-center mb-30">
+                            <div class="cat-icon">
+                                <img alt="" src="assets/img/gallery/upload_pic.png">
+                            </div>
+                            <form method="POST" enctype="multipart/form-data">
+                                <div class="cat-cap">
+                                    <!--<h5><a>上传图片</a></h5>-->
+                                    <button class="genric-btn success radius" type="button" style="width: 200px">上传图片
+                                    </button>
+                                    <input class="file" name="a" onchange="imgPreview(this);upload()" type="file"
+                                           style="width: 200px; height: 23px; margin-left: -200px"/>
+                                </div>
+                                <div class="img_preview_cartoon">
+                                    <div class="img_wrap_cartoon">
+                                        <img id="preview"/>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                    <div>
+                        <img src="assets/img/logo/rarrow.gif" id="btn_rarrow"
+                             style="width: 192px; height: 108px; margin-top: 130px; margin-right: 50px">
+                    </div>
+                    <div class="img_wrap_right" style="position:absolute; right: 50px; width: 100px"></div>
                 </div>
-                <div class="img_wrap_right" style="position:absolute; right: 50px; width: 100px"></div>
-
             </div>
-
-
         </div>
     </div>
     <!--? Blog Area Start -->
@@ -206,51 +205,51 @@
                 <h1>图片墙</h1>
                 <div class="row gallery-item">
                     <div class="col-md-4">
-                        <a class="img-pop-up" href="assets/img/elements/g1.jpg">
+                        <a class="img-pop-up" href="assets/img/gallery/g1.jpg">
                             <div class="single-gallery-image"
-                                 style="background: url(assets/img/elements/g1.jpg);"></div>
+                                 style="background: url(assets/img/gallery/fg1.jpg);"></div>
                         </a>
                     </div>
                     <div class="col-md-4">
-                        <a class="img-pop-up" href="assets/img/elements/g2.jpg">
+                        <a class="img-pop-up" href="assets/img/gallery/g2.jpg">
                             <div class="single-gallery-image"
-                                 style="background: url(assets/img/elements/g2.jpg);"></div>
+                                 style="background: url(assets/img/gallery/fg2.jpg);"></div>
                         </a>
                     </div>
                     <div class="col-md-4">
-                        <a class="img-pop-up" href="assets/img/elements/g3.jpg">
+                        <a class="img-pop-up" href="assets/img/gallery/g3.jpg">
                             <div class="single-gallery-image"
-                                 style="background: url(assets/img/elements/g3.jpg);"></div>
+                                 style="background: url(assets/img/gallery/fg3.jpg);"></div>
                         </a>
                     </div>
                     <div class="col-md-6">
-                        <a class="img-pop-up" href="assets/img/elements/g4.jpg">
+                        <a class="img-pop-up" href="assets/img/gallery/g5.jpg">
                             <div class="single-gallery-image"
-                                 style="background: url(assets/img/elements/g4.jpg);"></div>
+                                 style="background: url(assets/img/gallery/fg5.jpg);"></div>
                         </a>
                     </div>
                     <div class="col-md-6">
-                        <a class="img-pop-up" href="assets/img/elements/g5.jpg">
+                        <a class="img-pop-up" href="assets/img/gallery/g6.jpg">
                             <div class="single-gallery-image"
-                                 style="background: url(assets/img/elements/g5.jpg);"></div>
+                                 style="background: url(assets/img/gallery/fg6.jpg);"></div>
                         </a>
                     </div>
                     <div class="col-md-4">
-                        <a class="img-pop-up" href="assets/img/elements/g6.jpg">
+                        <a class="img-pop-up" href="assets/img/gallery/g4.jpg">
                             <div class="single-gallery-image"
-                                 style="background: url(assets/img/elements/g6.jpg);"></div>
+                                 style="background: url(assets/img/gallery/fg4.jpg);"></div>
                         </a>
                     </div>
                     <div class="col-md-4">
-                        <a class="img-pop-up" href="assets/img/elements/g7.jpg">
+                        <a class="img-pop-up" href="assets/img/gallery/g7.jpg">
                             <div class="single-gallery-image"
-                                 style="background: url(assets/img/elements/g7.jpg);"></div>
+                                 style="background: url(assets/img/gallery/fg7.jpg);"></div>
                         </a>
                     </div>
                     <div class="col-md-4">
-                        <a class="img-pop-up" href="assets/img/elements/g8.jpg">
+                        <a class="img-pop-up" href="assets/img/gallery/g8.jpg">
                             <div class="single-gallery-image"
-                                 style="background: url(assets/img/elements/g8.jpg);"></div>
+                                 style="background: url(assets/img/gallery/fg8.jpg);"></div>
                         </a>
                     </div>
                 </div>
@@ -261,7 +260,7 @@
 
 </main>
 <footer class="uploadpic_footer">
-    <p>Copyright &copy; 2019 Designed by : 熊猫动漫项目组</p>
+    <p>Copyright &copy; 2021 Designed by : 熊猫动漫项目组</p>
 </footer>
 <!-- Scroll Up -->
 <div id="back-top">
